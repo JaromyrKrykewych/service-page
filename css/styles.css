@@ -33,6 +33,9 @@
   margin: 0;
   padding: 0; }
 
+body {
+  scroll-behavior: smooth; }
+
 .home {
   position: relative;
   width: 100%;
@@ -257,7 +260,7 @@
   .offer-title {
     display: none; }
   .offer-carousel {
-    z-index: 1;
+    z-index: 15;
     width: 85%;
     margin: 0 auto;
     display: grid;
@@ -310,13 +313,14 @@
     .offer-carousel .active {
       opacity: 1; }
   .offer-controls {
-    z-index: 1;
+    z-index: 15;
     margin-top: 38px;
     display: flex;
     justify-content: space-between;
     width: 78px;
     height: 10px; }
     .offer-controls .offer-control {
+      z-index: 15;
       width: 10px;
       height: 10px;
       border-radius: 50%;
