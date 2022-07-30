@@ -238,7 +238,6 @@ body {
       background: #E84E18; }
 
 .offer {
-  z-index: -1;
   position: relative;
   height: 622px;
   background-image: url("../images/offer-bg.png");
